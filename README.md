@@ -1,3 +1,4 @@
+
 # PptxGenJS Slide Converter Agent
 
 This project converts a source PPTX deck from one slide size to another, then writes a new deck with PptxGenJS.
@@ -46,3 +47,4 @@ npm run convert -- \
 - PptxGenJS is used to generate the output deck.
 - `graphicFrame` extraction is best-effort. For complex charts/diagrams, placeholder rendering plus manual review is recommended.
 - Non-text shape style fidelity is best-effort and may vary from the source theme.
+
