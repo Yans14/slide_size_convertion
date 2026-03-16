@@ -1,0 +1,22 @@
+{
+  "name": "pptxgenjs",
+  "version": "1.0.0",
+  "main": "src/convert.js",
+  "scripts": {
+    "convert": "node src/convert.js",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fast-xml-parser": "^5.5.5",
+    "jszip": "^3.10.1",
+    "pptxgenjs": "^4.0.1",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.0"
+  }
+}
